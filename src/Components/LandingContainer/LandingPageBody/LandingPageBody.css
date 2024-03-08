@@ -1,0 +1,84 @@
+#mainPageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#LandingPageBodyContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 30vh;
+}
+#LandingPageBodyRight{
+    margin-top: -5vh;
+
+}
+
+
+#LandingPageBodyLeftImg{
+    height: 600px;
+    width: auto;
+}
+#aboutMePageContainer{
+    background-color: rgb(247, 247, 247);
+    height: 120vh;
+    width: 100vW;
+}
+#projectsPageContainer{
+    background-color: brown;
+    height: 120vh;
+    width: 100vW;
+}
+#contactPageContainer{
+    background-color: violet;
+    height: 120vh;
+    width: 100vW;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #LandingPageBodyContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10vh;
+        margin: auto;
+        margin-bottom: 30vh;
+    }
+    #LandingPageBodyRight{
+        margin-top: -5vh;
+    
+    }
+    
+    #LandingPageBodyLeftImg{
+        height: 600px;
+        width: auto;
+    }
+
+    #aboutMePageContainer{
+        background-color: rgb(247, 247, 247);
+        height: 190vh;
+        width: 170vw;
+        margin-left: 70vw;
+        
+    }
+    #projectsPageContainer{
+        background-color: brown;
+        height: 190vh;
+        width: 170vw;
+        margin-left: 70vw;
+    }
+    #contactPageContainer{
+        background-color: violet;
+        height: 190vh;
+        width: 170vw;
+        margin-left: 70vw;
+    }
+    
+
+
+}

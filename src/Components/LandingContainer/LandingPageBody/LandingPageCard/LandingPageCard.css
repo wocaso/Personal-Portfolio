@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&family=Raleway:wght@500&display=swap');
+#LandingPageCardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#LandingPageCardTittle{
+    font-family: Mulish;
+    font-size: 25px;
+}
+
+#LandingPageCardDescription{
+    font-family: Mulish;
+    font-size: 25px;
+    font-weight: 300;
+    height: auto;
+    width: 50vw;
+}
+
+#LandingPageCardButton{
+    font-family: Raleway;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 23px;
+    cursor: pointer;
+    border: 1px solid #000000;
+    color: #ffffff;
+    background-color:  #FF5733;
+    border-radius: 5px;
+}
+
+#LandingPageCardButton:hover {
+    background-color: #949494;
+    color: #fff;
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    #LandingPageCardContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #LandingPageCardTittle{
+        font-family: Mulish;
+        font-size: 15px;
+        
+
+    }
+    
+    #LandingPageCardDescription{
+        font-family: Mulish;
+        font-size: 25px;
+        font-weight: 300;
+        height: auto;
+        width: 100vw;
+    }
+    
+    #LandingPageCardButton{
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        cursor: pointer;
+        border: 1px solid #000000;
+        color: #ffffff;
+        background-color:  #FF5733;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    
+    #LandingPageCardButton:hover {
+        background-color: #949494;
+        color: #fff;
+      }
+    
+  }
+
+

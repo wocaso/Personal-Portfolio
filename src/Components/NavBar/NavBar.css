@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&family=Raleway:wght@500&display=swap');
+#NavBarContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2vh;
+
+}
+
+#NavBarMiddle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40vw;
+    margin-top: 20px;
+
+}
+
+
+#NavBarRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 10vw;
+    margin-top: 20px;
+    
+    
+}
+#imgWoco{
+    margin-right: 20px;
+    border-radius: 30px;
+    height: 80px;
+    width: auto;
+}
+#NavBarLeft{
+    display: flex;
+    flex-direction: row;
+    font-family: Raleway;
+    margin-top: -10px;
+
+}
+
+.labelTextNavBar{
+    font-family: Mulish;
+    font-weight: 300;
+    color: rgb(107, 107, 107);
+    font-size: 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.redesImgNavBar{
+    height: 30px;
+    width: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #imgWoco{
+        display: none;
+
+    }
+    #NavBarContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1vh;
+    margin-right: -10px;
+    width: 170vw;
+    background-color: #FF5733 ;
+    
+    
+}
+
+#NavBarMiddle{
+    width: 20vw;
+    white-space: nowrap;
+
+}
+
+
+#NavBarRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 10vw;
+    
+}
+
+#NavBarLeft{
+    font-family: Raleway;
+    margin-top: -2px;
+    color: white;
+
+}
+
+.labelTextNavBar{
+    font-family: Mulish;
+    font-weight: 300;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.redesImgNavBar{
+    display: none;
+}
+
+
+}
