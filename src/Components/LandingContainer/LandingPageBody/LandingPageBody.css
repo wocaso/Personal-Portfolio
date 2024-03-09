@@ -11,6 +11,7 @@
     align-items: center;
     margin-top: 10vh;
     margin-bottom: 30vh;
+    
 }
 #LandingPageBodyRight{
     margin-top: -5vh;
@@ -21,21 +22,23 @@
 #LandingPageBodyLeftImg{
     height: 600px;
     width: auto;
+    margin-left: 5v;
+
 }
 #aboutMePageContainer{
     background-color: rgb(247, 247, 247);
     height: 120vh;
-    width: 100vW;
+    width: 99vW;
 }
 #projectsPageContainer{
-    background-color: brown;
+    background-color: rgb(235, 235, 235);
     height: 120vh;
-    width: 100vW;
+    width: 99vW;
 }
 #contactPageContainer{
-    background-color: violet;
+    background-color: rgb(247, 247, 247);
     height: 120vh;
-    width: 100vW;
+    width: 99vW;
 }
 
 
@@ -45,9 +48,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 10vh;
         margin: auto;
+        
         margin-bottom: 30vh;
+        height: 125vh;
+
     }
     #LandingPageBodyRight{
         margin-top: -5vh;
@@ -67,13 +72,13 @@
         
     }
     #projectsPageContainer{
-        background-color: brown;
+        background-color: rgb(235, 235, 235);
         height: 190vh;
         width: 170vw;
         margin-left: 70vw;
     }
     #contactPageContainer{
-        background-color: violet;
+        background-color: rgb(247, 247, 247);
         height: 190vh;
         width: 170vw;
         margin-left: 70vw;

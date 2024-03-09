@@ -1,11 +1,22 @@
 import React from "react";
 import "./LandingPageBody.css";
 import AboutMePage from "../AboutMePage/AboutMePage";
+import ProjectsPage from "../ProjectsPage/ProjectsPage";
+import ContactMePage from "../../ContactMePage/ContactMePage";
 
 //components
 import LandingPageCard from "./LandingPageCard/LandingPageCard";
 
 function LandingPageBody() {
+  let scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      window.scrollTo({
+        top: section.offsetTop,
+        behavior: 'smooth' // Add smooth scrolling behavior
+      });
+    }
+  };
   return (
     <div id="mainPageContainer">
       <div id="LandingPageBodyContainer">
@@ -17,7 +28,7 @@ function LandingPageBody() {
           />
         </div>
         <div id="LandingPageBodyRight">
-          <LandingPageCard />
+          <LandingPageCard buttonFunction={scrollToSection} goToProp="aboutMePageContainer"/>
         </div>
         
       </div>
@@ -26,10 +37,11 @@ function LandingPageBody() {
 
       </div>
       <div id="projectsPageContainer">
+        <ProjectsPage/>
         
         </div>
         <div id="contactPageContainer">
-        
+          <ContactMePage/>
         </div>
     </div>
   );

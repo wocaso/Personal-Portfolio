@@ -31,10 +31,11 @@
     color: #ffffff;
     background-color:  #FF5733;
     border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #LandingPageCardButton:hover {
-    background-color: #949494;
+    background-color: #dd4726;
     color: #fff;
   }
 
@@ -75,10 +76,11 @@
         background-color:  #FF5733;
         border-radius: 5px;
         margin-top: 20px;
+        
     }
     
     #LandingPageCardButton:hover {
-        background-color: #949494;
+        background-color: #FF5733;
         color: #fff;
       }
     

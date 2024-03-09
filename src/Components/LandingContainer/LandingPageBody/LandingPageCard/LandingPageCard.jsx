@@ -1,7 +1,11 @@
 import React from 'react'
 import "./LandingPageCard.css"
 
-function LandingPageCard() {
+function LandingPageCard(props) {
+  function readyClick(){
+    props.buttonFunction(props.goToProp)
+
+  }
   return (
     <div id='LandingPageCardContainer'>
         <div id='LandingPageCardTittle'>
@@ -11,7 +15,7 @@ function LandingPageCard() {
             <p>Here you will fullfill your demands with ease, and we are cappable of running all type of proyects that the user needs</p>
         </div>
         <div>
-            <button id='LandingPageCardButton'>Projects</button>
+            <button onClick={readyClick} id='LandingPageCardButton'>Projects</button>
         </div>
     </div>
   )
