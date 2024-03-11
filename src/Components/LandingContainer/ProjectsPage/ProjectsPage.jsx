@@ -28,7 +28,10 @@ function ProjectsPage() {
               and food industry which anyone can use to present their business
               online.
             </p>
-            <button id="projectsPageDownLeftButton">Contact Me</button>
+            <a href="https://myrestaurantbusato.vercel.app/" target="blank">
+            <button id="projectsPageDownLeftButton">Visit Project</button>
+            </a>
+            
           </div>
         </div>
       </div>
