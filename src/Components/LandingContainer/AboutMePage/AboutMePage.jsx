@@ -33,11 +33,8 @@ function AboutMePage() {
             to the success of the overall product. Check out some of my work in
             the <strong>Projects section.</strong>
             <br></br>
-            <br></br> I also like sharing content related to the stuff that I
-            have learned over the years in Web Development so it can help other
-            people of the Dev Community.<br></br>
             <br></br>Feel free to Connect or Follow me on my Linkedin and
-            Instagram where I post useful content related to Web Development and
+            Github where I post useful content related to Web Development and
             Programming I'm open to Job opportunities where I can contribute,
             learn and grow.<br></br>
             <br></br> If you have a good opportunity that matches my skills and

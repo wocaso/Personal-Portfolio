@@ -28,7 +28,7 @@ function LandingPageBody() {
           />
         </div>
         <div id="LandingPageBodyRight">
-          <LandingPageCard buttonFunction={scrollToSection} goToProp="aboutMePageContainer"/>
+          <LandingPageCard buttonFunction={scrollToSection} goToProp="projectsPageContainer"/>
         </div>
         
       </div>

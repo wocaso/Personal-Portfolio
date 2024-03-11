@@ -3,6 +3,7 @@
 #AboutMePageContainer{
     display: flex;
     flex-direction: column;
+    margin-top: 6vh;
 }
 
 #AboutMePageIntroH1{
@@ -30,7 +31,7 @@
 #AboutMePageDown{
     display: flex;
     flex-direction: row;
-    margin-top: 80px;
+    margin-top: 40px;
 
 }
 
@@ -118,6 +119,7 @@
     border: 1px solid #000000;
     color: #ffffff;
     background-color:  #FF5733;
+    border: 0px;
     border-radius: 5px;
     width: 20vw;
 
@@ -132,6 +134,7 @@
 #AboutMePageDownLeftButton:hover {
     background-color: #dd4726;
     color: #fff;
+    transition: 0.3s ease;
   }
 
 @media only screen and (max-width: 1370px) {
@@ -145,6 +148,13 @@
 
 
 @media only screen and (max-width: 600px) {
+    #AboutMePageRight{
+        margin-top: -5vh;
+    }
+    #AboutMePageContainer{
+
+        margin-top: 15vh;
+    }
     #AboutMePageDown{
         display: flex;
         flex-direction: column;

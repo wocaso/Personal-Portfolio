@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./ContactMePage.css";
 import { sendContactData } from "../../services/firestore.js";
+import Swal from 'sweetalert2';
 
 function ContactMePage() {
   function sendInfo(contactInfoObject) {
@@ -25,6 +26,17 @@ function ContactMePage() {
   function sendContactToFirestore(event) {
     event.preventDefault();
     sendInfo(dataForm);
+    setDataForm({
+        nombre: "",
+        email: "",
+        razon: ""
+      })
+      Swal.fire({
+        title: 'Correct!',
+        text:"I will answer you as quickly as possible",
+        icon: 'success', // Puedes cambiar el icono (success, error, warning, info, etc.)
+        confirmButtonText: 'Ok',
+      })
   }
 
   return (
@@ -45,7 +57,7 @@ function ContactMePage() {
             </label>
             <input
               onChange={inputChangeHander}
-              value={dataForm.name}
+              value={dataForm.nombre}
               name="nombre"
               type="text"
               placeholder="Enter Your Name"
@@ -62,7 +74,7 @@ function ContactMePage() {
               onChange={inputChangeHander}
               value={dataForm.email}
               name="email"
-              type="mail"
+              type="email"
               placeholder="Enter Your Email"
               required
               className="inputForm"

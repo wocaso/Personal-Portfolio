@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState, useEffect }  from "react";
 import "./NavBar.css";
 
 function NavBar() {
 
-  let scrollToSection = (id) => {
+
+
+
+  let scrollToSection = (id, event) => {
     const section = document.getElementById(id);
     if (section) {
       window.scrollTo({
@@ -21,22 +24,27 @@ function NavBar() {
   function goToContact() {
     scrollToSection("contactPageContainer");
   }
+  function goToHome(){
+    scrollToSection("mainPageContainer");
+
+  }
   return (
+    
       <div id="NavBarContainer">
-        <div id="NavBarLeft">
+        <div onClick={goToHome} id="NavBarLeft">
           <img id="imgWoco" src="./Assets/woco.png" alt="" />
           <h1>Gabriel Busato</h1>
         </div>
         <div id="NavBarMiddle">
-          <a onClick={goToProjects} href="#" className="labelTextNavBar">
+          <button onClick={goToProjects} href="#" className="labelTextNavBar">
             Projects
-          </a>
-          <a href="#" onClick={goToAboutMe} className="labelTextNavBar">
+          </button>
+          <button href="#" onClick={goToAboutMe} className="labelTextNavBar">
             About me
-          </a>
-          <a onClick={goToContact} href="#" className="labelTextNavBar">
+          </button>
+          <button onClick={goToContact} href="#" className="labelTextNavBar">
             Contact me
-          </a>
+          </button>
         </div>
         <div id="NavBarRight">
           <img className="redesImgNavBar" src="./Assets/twitter.png" alt="" />

@@ -9,26 +9,26 @@ function ProjectsPage() {
         <div id="ProjectsPageIntroSpacer"></div>
         <p id="ProjectsPageIntroDesc">
           Here you will find some of the personal and clients projects that I
-          created with each project containing its own case study
+          created
         </p>
       </div>
       <div id="ProjectsPageDownContainer">
         <div id="ProjectsPageDownProj1">
-          <div id="ProjectsPageDownProj1img">
-
+          <div id="ProjectsPageDownProj1imgContainer">
+            <img
+              id="ProjectsPageDownProj1img"
+              src="./Assets/myRestaurantApp.png"
+              alt=""
+            />
           </div>
           <div id="ProjectsPageDownProj1Desc">
-
-          <h1 id="projectsPageDownLeftLabel">Who am I?</h1>
-          <p id="projectsPageDownLeftText">
-            I'm a <strong>Frontend Focused Web Developer</strong> building and
-            managing the Front-end of Websites and Web Applications that leads
-            to the success of the overall product. Check out some of my work in
-            the <strong>Projects section.</strong>
-          </p>
-          <button id="projectsPageDownLeftButton">Contact Me</button>
-
-
+            <h1 id="projectsPageDownLeftLabel">Town Grill Bar</h1>
+            <p id="projectsPageDownLeftText">
+            Town Grill Bar is a web template that I created targeting the restaurant
+              and food industry which anyone can use to present their business
+              online.
+            </p>
+            <button id="projectsPageDownLeftButton">Contact Me</button>
           </div>
         </div>
       </div>
