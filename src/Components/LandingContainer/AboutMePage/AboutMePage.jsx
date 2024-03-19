@@ -28,7 +28,7 @@ function AboutMePage() {
         <div id="AboutMePageDownLeft">
           <h1 id="AboutMePageDownLeftLabel">Who am I?</h1>
           <p id="AboutMePageDownLeftText">
-            I'm a <strong>Frontend Focused Web Developer</strong> building and
+            I'm a <strong>Full-Stack Web Developer</strong> building and
             managing the Front-end of Websites and Web Applications that leads
             to the success of the overall product. Check out some of my work in
             the <strong>Projects section.</strong>
